@@ -540,8 +540,10 @@ html {
     background-attachment: fixed;
  */
 }
-.program-2019 { width: 80%;}
-
+.program-2019 { 
+	width: 80%;
+	margin: 0 auto;	
+}
 .big-links li a {
 	font-size: 1.4rem;
 	text-decoration: none;
@@ -557,4 +559,13 @@ html {
   display: inline-block;
   font-size: 1.2rem;
   text-decoration: none;
+}
+.p-center { text-align: center; }
+
+
+@media screen and (max-width: 768px) {
+  	.program-2019 { 
+		width: 100%;
+	}
+	img { padding-left: 0; }
 }
